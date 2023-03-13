@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  padding:30px 20px;
+  background-color: #ff00ff;
+  display: flex;
+  justyfy-content:flex-end;
+}
+.header > div {
+  background-color: pink;
+  flex-basis:140px;
+  height: 70px;
+  margin: 0 10px;
+}
+.header > div {
+  flex-basis:140px;
+  height: 70px;
+  background-color: pink;
+  margin: 0 10px;
+}
+.header>:first-child {
+ margin-right: auto;
+}
+
+main {
+  display: flex;
+  justyfy-content:center;
+}
